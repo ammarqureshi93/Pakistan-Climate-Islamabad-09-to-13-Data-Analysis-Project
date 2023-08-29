@@ -1,0 +1,51 @@
+/*Shows  highest rain values in January 2010*/
+SELECT rain_mm, daymonth, year FROM PakistanClimate
+WHERE year = '2010' and daymonth LIKE '%Jan%' ORDER BY rain_mm;
+
+/*Shows  highest rain values in Feburary 2010*/
+SELECT rain_mm, daymonth, year FROM PakistanClimate
+WHERE year = '2010' and daymonth LIKE '%Feb%' ORDER BY rain_mm;
+
+/*Shows highest rain values in March 2010*/
+SELECT rain_mm, daymonth, year FROM PakistanClimate
+WHERE year = '2010' and daymonth LIKE '%Mar%' ORDER BY rain_mm;
+
+/*Shows highest rain values in April 2010*/
+SELECT rain_mm, daymonth, year FROM PakistanClimate
+WHERE year = '2010' and daymonth LIKE '%Apr%' ORDER BY rain_mm;
+
+/*Shows highest rain values in May 2010*/
+SELECT rain_mm, daymonth, year FROM PakistanClimate
+WHERE year = '2010' and daymonth LIKE '%May%' ORDER BY rain_mm;
+
+/*Shows highest rain values in June 2010*/
+SELECT rain_mm, daymonth, year FROM PakistanClimate
+WHERE year = '2010' and daymonth LIKE '%Jun%' ORDER BY rain_mm;
+
+/*Shows highest rain values in July 2010*/
+SELECT rain_mm, daymonth, year FROM PakistanClimate
+WHERE year = '2010' and daymonth LIKE '%Jul%' ORDER BY rain_mm;
+
+/*Shows highest rain values in August 2010*/
+SELECT rain_mm, daymonth, year FROM PakistanClimate
+WHERE year = '2010' and daymonth LIKE '%Aug%' ORDER BY rain_mm;
+
+/*Shows highest rain values in September 2010*/
+SELECT rain_mm, daymonth, year FROM PakistanClimate
+WHERE year = '2010' and daymonth LIKE '%Sep%' ORDER BY rain_mm;
+
+/*Shows highest rain values in October 2010*/
+SELECT rain_mm, daymonth, year FROM PakistanClimate
+WHERE year = '2010' and daymonth LIKE '%Oct%' ORDER BY rain_mm;
+
+/*Shows highest rain values in November 2010*/
+SELECT rain_mm, daymonth, year FROM PakistanClimate
+WHERE year = '2010' and daymonth LIKE '%Nov%' ORDER BY rain_mm;
+
+/*Shows highest rain values in December 2010*/
+SELECT rain_mm, daymonth, year FROM PakistanClimate
+WHERE year = '2010' and daymonth LIKE '%Dec%' ORDER BY rain_mm;
+
+
+
+
