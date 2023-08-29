@@ -1,0 +1,21 @@
+/*Getting the lowest value from the rain column*/
+SELECT MIN(rain_mm) FROM PakistanClimate;
+
+/*Shows the month, day, and year with the lowest rain value*/
+SELECT rain_mm, daymonth, year FROM PakistanClimate
+WHERE rain_mm = '0.0';
+
+/*Getting the highest value from the rain column*/
+SELECT MAX(rain_mm) FROM PakistanClimate;
+
+/*Shows the month, day,and yera with the highest rain value*/
+SELECT rain_mm, daymonth, year FROM PakistanClimate
+WHERE rain_mm = '35.3';
+
+/*Ordering the minimum rain values from lowest to highest*/
+SELECT rain_mm, daymonth, year FROM PakistanClimate
+ORDER BY rain_mm ASC;
+
+/*Ordering the minimum rain values from highest to lowest*/
+SELECT rain_mm, daymonth, year FROM PakistanClimate
+ORDER BY rain_mm DESC;
