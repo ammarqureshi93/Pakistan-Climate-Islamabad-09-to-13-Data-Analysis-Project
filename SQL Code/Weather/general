@@ -1,0 +1,16 @@
+/*Shows all days, months and years with sunny weather.*/
+SELECT weather, daymonth, year FROM PakistanClimate
+WHERE weather = 'Sunny';
+
+/*Shows all days, months and years with partly cloudy and cloudy weather*/
+SELECT weather, daymonth, year FROM PakistanClimate
+WHERE weather LIKE '%cloud%'
+
+/*Shows all days, months and years with chances of rain*/
+SELECT weather, daymonth, year FROM PakistanClimate
+WHERE weather LIKE '%rain%'
+
+/*Shows all days, months and years with chances of thunderstorms*/
+SELECT weather, daymonth, year FROM PakistanClimate
+WHERE weather LIKE '%thunder%'
+
