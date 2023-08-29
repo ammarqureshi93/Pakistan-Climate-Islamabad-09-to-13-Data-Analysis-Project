@@ -1,0 +1,21 @@
+/*Getting the lowest value from the cloud column*/
+SELECT MIN(cloud_percentage) FROM PakistanClimate;
+
+/*Shows the month, day, and year with the lowest cloud value*/
+SELECT cloud_percentage, daymonth, year FROM PakistanClimate
+WHERE cloud_percentage = '0';
+
+/*Getting the highest value from the cloud column*/
+SELECT MAX(cloud_percentage) FROM PakistanClimate;
+
+/*Shows the month, day,and yera with the highest cloud value*/
+SELECT cloud_percentage, daymonth, year FROM PakistanClimate
+WHERE cloud_percentage = '98';
+
+/*Ordering the minimum cloud values from lowest to highest*/
+SELECT cloud_percentage, daymonth, year FROM PakistanClimate
+ORDER BY cloud_percentage ASC;
+
+/*Ordering the minimum cloud values from highest to lowest*/
+SELECT cloud_percentage, daymonth, year FROM PakistanClimate
+ORDER BY cloud_percentage DESC;
