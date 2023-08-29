@@ -1,0 +1,51 @@
+/*Shows  maximum humidity in January 2010*/
+SELECT humidity_percentage, daymonth, year FROM PakistanClimate
+WHERE year = '2010' and daymonth LIKE '%Jan%' ORDER BY humidity_percentage;
+
+/*Shows  maximum humidity in Feburary 2010*/
+SELECT humidity_percentage, daymonth, year FROM PakistanClimate
+WHERE year = '2010' and daymonth LIKE '%Feb%' ORDER BY humidity_percentage;
+
+/*Shows maximum humidity in March 2010*/
+SELECT humidity_percentage, daymonth, year FROM PakistanClimate
+WHERE year = '2010' and daymonth LIKE '%Mar%' ORDER BY humidity_percentage;
+
+/*Shows maximum humidity in April 2010*/
+SELECT humidity_percentage, daymonth, year FROM PakistanClimate
+WHERE year = '2010' and daymonth LIKE '%Apr%' ORDER BY humidity_percentage;
+
+/*Shows maximum humidity in May 2010*/
+SELECT humidity_percentage, daymonth, year FROM PakistanClimate
+WHERE year = '2010' and daymonth LIKE '%May%' ORDER BY humidity_percentage;
+
+/*Shows maximum humidity in June 2010*/
+SELECT humidity_percentage, daymonth, year FROM PakistanClimate
+WHERE year = '2010' and daymonth LIKE '%Jun%' ORDER BY humidity_percentage;
+
+/*Shows maximum humidity in July 2010*/
+SELECT humidity_percentage, daymonth, year FROM PakistanClimate
+WHERE year = '2010' and daymonth LIKE '%Jul%' ORDER BY humidity_percentage;
+
+/*Shows maximum humidity in August 2010*/
+SELECT humidity_percentage, daymonth, year FROM PakistanClimate
+WHERE year = '2010' and daymonth LIKE '%Aug%' ORDER BY humidity_percentage;
+
+/*Shows maximum humidity in September 2010*/
+SELECT humidity_percentage, daymonth, year FROM PakistanClimate
+WHERE year = '2010' and daymonth LIKE '%Sep%' ORDER BY humidity_percentage;
+
+/*Shows maximum humidity in October 2010*/
+SELECT humidity_percentage, daymonth, year FROM PakistanClimate
+WHERE year = '2010' and daymonth LIKE '%Oct%' ORDER BY humidity_percentage;
+
+/*Shows maximum humidity in November 2010*/
+SELECT humidity_percentage, daymonth, year FROM PakistanClimate
+WHERE year = '2010' and daymonth LIKE '%Nov%' ORDER BY humidity_percentage;
+
+/*Shows maximum humidity in December 2010*/
+SELECT humidity_percentage, daymonth, year FROM PakistanClimate
+WHERE year = '2010' and daymonth LIKE '%Dec%' ORDER BY humidity_percentage;
+
+
+
+
