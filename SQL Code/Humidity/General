@@ -1,0 +1,21 @@
+/*Getting the lowest value from the humidity column*/
+SELECT MIN(humidity_percentage) FROM PakistanClimate;
+
+/*Shows the month, day, and year with the lowest humidity value*/
+SELECT humidity_percentage, daymonth, year FROM PakistanClimate
+WHERE humidity_percentage = '11';
+
+/*Getting the highest value from the humidity column*/
+SELECT MAX(humidity_percentage) FROM PakistanClimate;
+
+/*Shows the month, day,and yera with the highest humidity value*/
+SELECT humidity_percentage, daymonth, year FROM PakistanClimate
+WHERE humidity_percentage = '94';
+
+/*Ordering the minimum humidity values from lowest to highest*/
+SELECT humidity_percentage, daymonth, year FROM PakistanClimate
+ORDER BY humidity_percentage ASC;
+
+/*Ordering the minimum humidity values from highest to lowest*/
+SELECT humidity_percentage, daymonth, year FROM PakistanClimate
+ORDER BY humidity_percentage DESC;
