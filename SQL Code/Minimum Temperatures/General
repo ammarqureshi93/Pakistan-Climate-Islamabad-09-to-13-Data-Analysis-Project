@@ -1,0 +1,28 @@
+/*Getting the lowest value from the minimum temperature*/
+SELECT MIN(min_temp_Celsius) FROM PakistanClimate;
+
+/*Shows the month, day, and year with the lowest minimum temperature*/
+SELECT min_temp_Celsius, daymonth, year FROM PakistanClimate
+WHERE min_temp_Celsius = '2';
+
+/*Getting the highest value from the minimum temperature*/
+SELECT MAX(min_temp_Celsius) FROM PakistanClimate;
+
+/*Shows the month, day, and year with the highest minimum temperature*/
+SELECT min_temp_Celsius, daymonth, year FROM PakistanClimate
+WHERE min_temp_Celsius = '15';
+
+/*Ordering the minimum temperature from lowest to highest*/
+SELECT min_temp_Celsius, daymonth, year FROM PakistanClimate
+ORDER BY min_temp_Celsius ASC;
+
+/*Ordering the minimum temperature from highest to lowest*/
+SELECT min_temp_Celsius, daymonth, year FROM PakistanClimate
+ORDER BY min_temp_Celsius DESC;
+
+
+
+
+
+
+
