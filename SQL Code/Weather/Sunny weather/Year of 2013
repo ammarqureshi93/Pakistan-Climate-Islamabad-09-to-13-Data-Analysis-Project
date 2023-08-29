@@ -1,0 +1,48 @@
+/*Showing all sunny weather in January of 2013*/
+SELECT weather, daymonth, year FROM PakistanClimate
+WHERE weather = 'Sunny' AND daymonth LIKE '%Jan%' AND year = '2013';
+
+/*Showing all sunny weather in Febuary of 2013*/
+SELECT weather, daymonth, year FROM PakistanClimate
+WHERE weather = 'Sunny' AND daymonth LIKE '%Feb%' AND year = '2013';
+
+/*Showing all sunny weather in March of 2013*/
+SELECT weather, daymonth, year FROM PakistanClimate
+WHERE weather = 'Sunny' AND daymonth LIKE '%Mar%' AND year = '2013';
+
+/*Showing all sunny weather in April of 2013*/
+SELECT weather, daymonth, year FROM PakistanClimate
+WHERE weather = 'Sunny' AND daymonth LIKE '%Apr%' AND year = '2013';
+
+/*Showing all sunny weather in May of 2013*/
+SELECT weather, daymonth, year FROM PakistanClimate
+WHERE weather = 'Sunny' AND daymonth LIKE '%May%' AND year = '2013';
+
+/*Showing all sunny weather in June of 2013*/
+SELECT weather, daymonth, year FROM PakistanClimate
+WHERE weather = 'Sunny' AND daymonth LIKE '%Jun%' AND year = '2013';
+
+/*Showing all sunny weather in Jul of 2013*/
+SELECT weather, daymonth, year FROM PakistanClimate
+WHERE weather = 'Sunny' AND daymonth LIKE '%Jul%' AND year = '2013';
+
+/*Showing all sunny weather in August of 2013*/
+SELECT weather, daymonth, year FROM PakistanClimate
+WHERE weather = 'Sunny' AND daymonth LIKE '%Aug%' AND year = '2013';
+
+/*Showing all sunny weather in September of 2013*/
+SELECT weather, daymonth, year FROM PakistanClimate
+WHERE weather = 'Sunny' AND daymonth LIKE '%Sep%' AND year = '2013';
+
+/*Showing all sunny weather in October of 2013*/
+SELECT weather, daymonth, year FROM PakistanClimate
+WHERE weather = 'Sunny' AND daymonth LIKE '%Oct%' AND year = '2013';
+
+/*Showing all sunny weather in November of 2013*/
+SELECT weather, daymonth, year FROM PakistanClimate
+WHERE weather = 'Sunny' AND daymonth LIKE '%Nov%' AND year = '2013';
+
+/*Showing all sunny weather in December of 2013*/
+SELECT weather, daymonth, year FROM PakistanClimate
+WHERE weather = 'Sunny' AND daymonth LIKE '%Dec%' AND year = '2013';
+
