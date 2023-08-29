@@ -1,0 +1,50 @@
+/*Shows maximum temperature in January 2012*/
+SELECT max_temp_Celsius, daymonth, year FROM PakistanClimate
+WHERE year = '2012' and daymonth LIKE '%Jan%' ORDER BY max_temp_Celsius;
+
+/*Shows maximum temperature in Febuary 2012*/
+SELECT max_temp_Celsius, daymonth, year FROM PakistanClimate
+WHERE year = '2012' and daymonth LIKE '%Feb%' ORDER BY max_temp_Celsius;
+
+/*Shows maximum temperature in March 2012*/
+SELECT max_temp_Celsius, daymonth, year FROM PakistanClimate
+WHERE year = '2012' and daymonth LIKE '%Mar%' ORDER BY max_temp_Celsius;
+
+/*Shows maximum temperature in April 2012*/
+SELECT max_temp_Celsius, daymonth, year FROM PakistanClimate
+WHERE year = '2012' and daymonth LIKE '%Apr%' ORDER BY max_temp_Celsius;
+
+/*Shows maximum temperature in May 2012*/
+SELECT max_temp_Celsius, daymonth, year FROM PakistanClimate
+WHERE year = '2012' and daymonth LIKE '%May%' ORDER BY max_temp_Celsius;
+
+/*Shows maximum temperature in June 2012*/
+SELECT max_temp_Celsius, daymonth, year FROM PakistanClimate
+WHERE year = '2012' and daymonth LIKE '%Jun%' ORDER BY max_temp_Celsius;
+
+/*Shows maximum temperature in July 2012*/
+SELECT max_temp_Celsius, daymonth, year FROM PakistanClimate
+WHERE year = '2012' and daymonth LIKE '%Jul%' ORDER BY max_temp_Celsius;
+
+/*Shows maximum temperature in August 2012*/
+SELECT max_temp_Celsius, daymonth, year FROM PakistanClimate
+WHERE year = '2012' and daymonth LIKE '%Aug%' ORDER BY max_temp_Celsius;
+
+/*Shows maximum temperature in September 2012*/
+SELECT max_temp_Celsius, daymonth, year FROM PakistanClimate
+WHERE year = '2012' and daymonth LIKE '%Sep%' ORDER BY max_temp_Celsius;
+
+/*Shows maximum temperature in October 2012*/
+SELECT max_temp_Celsius, daymonth, year FROM PakistanClimate
+WHERE year = '2012' and daymonth LIKE '%Oct%' ORDER BY max_temp_Celsius;
+
+/*Shows maximum temperature in November 2012*/
+SELECT max_temp_Celsius, daymonth, year FROM PakistanClimate
+WHERE year = '2012' and daymonth LIKE '%Nov%' ORDER BY max_temp_Celsius;
+
+/*Shows maximum temperature in December 2012*/
+SELECT max_temp_Celsius, daymonth, year FROM PakistanClimate
+WHERE year = '2012' and daymonth LIKE '%Dec%' ORDER BY max_temp_Celsius;
+
+
+
