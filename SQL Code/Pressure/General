@@ -1,0 +1,21 @@
+/*Getting the lowest value from the pressure column*/
+SELECT MIN(pressure_millibar) FROM PakistanClimate;
+
+/*Shows the month, day, and year with the lowest pressure value*/
+SELECT pressure_millibar, daymonth, year FROM PakistanClimate
+WHERE pressure_millibar = '1008';
+
+/*Getting the highest value from the pressure column*/
+SELECT MAX(pressure_millibar) FROM PakistanClimate;
+
+/*Shows the month, day,and yera with the highest pressure value*/
+SELECT pressure_millibar, daymonth, year FROM PakistanClimate
+WHERE pressure_millibar = '1026';
+
+/*Ordering the minimum pressure values from lowest to highest*/
+SELECT pressure_millibar, daymonth, year FROM PakistanClimate
+ORDER BY pressure_millibar ASC;
+
+/*Ordering the minimum pressure values from highest to lowest*/
+SELECT pressure_millibar, daymonth, year FROM PakistanClimate
+ORDER BY pressure_millibar DESC;
