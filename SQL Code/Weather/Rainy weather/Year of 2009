@@ -1,0 +1,47 @@
+/*Shows rainy weather in days of January*/
+SELECT weather, daymonth, year FROM PakistanClimate
+WHERE weather LIKE '%rain%' AND daymonth LIKE '%Jan%' AND year = '2009';
+
+/*Shows rainy weather in days of Febuary*/
+SELECT weather, daymonth, year FROM PakistanClimate
+WHERE weather LIKE '%rain%' AND daymonth LIKE '%Feb%' AND year = '2009';
+
+/*Shows rainy weather in days of March*/
+SELECT weather, daymonth, year FROM PakistanClimate
+WHERE weather LIKE '%rain%' AND daymonth LIKE '%Mar%' AND year = '2009';
+
+/*Shows rainy weather in days of April*/
+SELECT weather, daymonth, year FROM PakistanClimate
+WHERE weather LIKE '%rain%' AND daymonth LIKE '%Apr%' AND year = '2009';
+
+/*Shows rainy weather in days of May*/
+SELECT weather, daymonth, year FROM PakistanClimate
+WHERE weather LIKE '%rain%' AND daymonth LIKE '%May%' AND year = '2009';
+
+/*Shows rainy weather in days of June*/
+SELECT weather, daymonth, year FROM PakistanClimate
+WHERE weather LIKE '%rain%' AND daymonth LIKE '%Jun%' AND year = '2009';
+
+/*Shows rainy weather in days of July*/
+SELECT weather, daymonth, year FROM PakistanClimate
+WHERE weather LIKE '%rain%' AND daymonth LIKE '%Jul%' AND year = '2009';
+
+/*Shows rainy weather in days of August*/
+SELECT weather, daymonth, year FROM PakistanClimate
+WHERE weather LIKE '%rain%' AND daymonth LIKE '%Aug%' AND year = '2009';
+
+/*Shows rainy weather in days of September*/
+SELECT weather, daymonth, year FROM PakistanClimate
+WHERE weather LIKE '%rain%' AND daymonth LIKE '%Sep%' AND year = '2009';
+
+/*Shows rainy weather in days of October*/
+SELECT weather, daymonth, year FROM PakistanClimate
+WHERE weather LIKE '%rain%' AND daymonth LIKE '%Oct%' AND year = '2009';
+
+/*Shows rainy weather in days of November*/
+SELECT weather, daymonth, year FROM PakistanClimate
+WHERE weather LIKE '%rain%' AND daymonth LIKE '%Nov%' AND year = '2009';
+
+/*Shows rainy weather in days of December*/
+SELECT weather, daymonth, year FROM PakistanClimate
+WHERE weather LIKE '%rain%' AND daymonth LIKE '%Dec%' AND year = '2009';
