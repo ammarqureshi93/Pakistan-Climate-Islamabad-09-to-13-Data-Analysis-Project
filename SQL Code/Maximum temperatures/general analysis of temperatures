@@ -1,0 +1,44 @@
+
+/*Getting the lowest value from the maximum temperature*/
+SELECT MIN(max_temp_Celsius) FROM PakistanClimate;
+
+/*Shows the month, day, and year with the lowest maximum temperature*/
+SELECT max_temp_Celsius, daymonth, year FROM PakistanClimate
+WHERE max_temp_Celsius = '9';
+
+/*Getting the highest value from the maximum temperature*/
+SELECT MAX(max_temp_Celsius) FROM PakistanClimate;
+
+/*Shows the month, day, and year with the highest maximum temperature*/
+SELECT max_temp_Celsius, daymonth, year FROM PakistanClimate
+WHERE max_temp_Celsius = '27';
+
+/*Ordering the maximum temperature from lowest to highest*/
+SELECT max_temp_Celsius, daymonth, year FROM PakistanClimate
+ORDER BY max_temp_Celsius ASC;
+
+/*Ordering the maximum temperature from highest to lowest*/
+SELECT max_temp_Celsius, daymonth, year FROM PakistanClimate
+ORDER BY max_temp_Celsius DESC;
+
+/*Shows  maximum temperature in January 2009*/
+SELECT max_temp_Celsius, daymonth, year FROM PakistanClimate
+WHERE year = '2009' and daymonth LIKE '%Jan%' ORDER BY max_temp_Celsius;
+
+/*Shows  maximum temperature in Feburary 2009*/
+SELECT max_temp_Celsius, daymonth, year FROM PakistanClimate
+WHERE year = '2009' and daymonth LIKE '%Feb%' ORDER BY max_temp_Celsius;
+
+/*Shows maximum temperature in March 2009*/
+SELECT max_temp_Celsius, daymonth, year FROM PakistanClimate
+WHERE year = '2009' and daymonth LIKE '%Mar%' ORDER BY max_temp_Celsius;
+
+/*Shows maximum temperature in April 2009*/
+SELECT max_temp_Celsius, daymonth, year FROM PakistanClimate
+WHERE year = '2009' and daymonth LIKE '%Apr%' ORDER BY max_temp_Celsius;
+
+/*Shows maximum temperature in May 2009*/
+SELECT max_temp_Celsius, daymonth, year FROM PakistanClimate
+WHERE year = '2009' and daymonth LIKE '%May%' ORDER BY max_temp_Celsius;
+
+
