@@ -1,0 +1,50 @@
+/*Shows maximum cloud in January 2009*/
+SELECT cloud_percentage, daymonth, year FROM PakistanClimate
+WHERE year = '2009' and daymonth LIKE '%Jan%' ORDER BY cloud_percentage;
+
+/*Shows maximum cloud in Febuary 2009*/
+SELECT cloud_percentage, daymonth, year FROM PakistanClimate
+WHERE year = '2009' and daymonth LIKE '%Feb%' ORDER BY cloud_percentage;
+
+/*Shows maximum cloud in March 2009*/
+SELECT cloud_percentage, daymonth, year FROM PakistanClimate
+WHERE year = '2009' and daymonth LIKE '%Mar%' ORDER BY cloud_percentage;
+
+/*Shows maximum cloud in April 2009*/
+SELECT cloud_percentage, daymonth, year FROM PakistanClimate
+WHERE year = '2009' and daymonth LIKE '%Apr%' ORDER BY cloud_percentage;
+
+/*Shows maximum cloud in May 2009*/
+SELECT cloud_percentage, daymonth, year FROM PakistanClimate
+WHERE year = '2009' and daymonth LIKE '%May%' ORDER BY cloud_percentage;
+
+/*Shows maximum cloud in June 2009*/
+SELECT cloud_percentage, daymonth, year FROM PakistanClimate
+WHERE year = '2009' and daymonth LIKE '%Jun%' ORDER BY cloud_percentage;
+
+/*Shows maximum cloud in July 2009*/
+SELECT cloud_percentage, daymonth, year FROM PakistanClimate
+WHERE year = '2009' and daymonth LIKE '%Jul%' ORDER BY cloud_percentage;
+
+/*Shows maximum cloud in August 2009*/
+SELECT cloud_percentage, daymonth, year FROM PakistanClimate
+WHERE year = '2009' and daymonth LIKE '%Aug%' ORDER BY cloud_percentage;
+
+/*Shows maximum cloud in September 2009*/
+SELECT cloud_percentage, daymonth, year FROM PakistanClimate
+WHERE year = '2009' and daymonth LIKE '%Sep%' ORDER BY cloud_percentage;
+
+/*Shows maximum cloud in October 2009*/
+SELECT cloud_percentage, daymonth, year FROM PakistanClimate
+WHERE year = '2009' and daymonth LIKE '%Oct%' ORDER BY cloud_percentage;
+
+/*Shows maximum cloud in November 2009*/
+SELECT cloud_percentage, daymonth, year FROM PakistanClimate
+WHERE year = '2009' and daymonth LIKE '%Nov%' ORDER BY cloud_percentage;
+
+/*Shows maximum cloud in December 2009*/
+SELECT cloud_percentage, daymonth, year FROM PakistanClimate
+WHERE year = '2009' and daymonth LIKE '%Dec%' ORDER BY cloud_percentage;
+
+
+
