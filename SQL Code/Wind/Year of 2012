@@ -1,0 +1,52 @@
+/*Shows  highest wind values in January 2012*/
+SELECT wind_kmh, daymonth, year FROM PakistanClimate
+WHERE year = '2012' and daymonth LIKE '%Jan%' ORDER BY wind_kmh;
+
+/*Shows  highest wind values in Feburary 2012*/
+SELECT wind_kmh, daymonth, year FROM PakistanClimate
+WHERE year = '2012' and daymonth LIKE '%Feb%' ORDER BY wind_kmh;
+
+/*Shows highest wind values in March 2012*/
+SELECT wind_kmh, daymonth, year FROM PakistanClimate
+WHERE year = '2012' and daymonth LIKE '%Mar%' ORDER BY wind_kmh;
+
+/*Shows highest wind values in April 2012*/
+SELECT wind_kmh, daymonth, year FROM PakistanClimate
+WHERE year = '2012' and daymonth LIKE '%Apr%' ORDER BY wind_kmh;
+
+/*Shows highest wind values in May 2012*/
+SELECT wind_kmh, daymonth, year FROM PakistanClimate
+WHERE year = '2012' and daymonth LIKE '%May%' ORDER BY wind_kmh;
+
+/*Shows highest wind values in June 2012*/
+SELECT wind_kmh, daymonth, year FROM PakistanClimate
+WHERE year = '2012' and daymonth LIKE '%Jun%' ORDER BY wind_kmh;
+
+/*Shows highest wind values in July 2012*/
+SELECT wind_kmh, daymonth, year FROM PakistanClimate
+WHERE year = '2012' and daymonth LIKE '%Jul%' ORDER BY wind_kmh;
+
+/*Shows highest wind values in August 2012*/
+SELECT wind_kmh, daymonth, year FROM PakistanClimate
+WHERE year = '2012' and daymonth LIKE '%Aug%' ORDER BY wind_kmh;
+
+/*Shows highest wind values in September 2012*/
+SELECT wind_kmh, daymonth, year FROM PakistanClimate
+WHERE year = '2012' and daymonth LIKE '%Sep%' ORDER BY wind_kmh;
+
+/*Shows highest wind values in October 2012*/
+SELECT wind_kmh, daymonth, year FROM PakistanClimate
+WHERE year = '2012' and daymonth LIKE '%Oct%' ORDER BY wind_kmh;
+
+/*Shows highest wind values in November 2012*/
+SELECT wind_kmh, daymonth, year FROM PakistanClimate
+WHERE year = '2012' and daymonth LIKE '%Nov%' ORDER BY wind_kmh;
+
+/*Shows highest wind values in December 2012*/
+SELECT wind_kmh, daymonth, year FROM PakistanClimate
+WHERE year = '2012' and daymonth LIKE '%Dec%' ORDER BY wind_kmh;
+
+
+
+
+
