@@ -1,0 +1,50 @@
+/*Shows  minimum temperature in January 2011*/
+SELECT min_temp_Celsius, daymonth, year FROM PakistanClimate
+WHERE year = '2011' and daymonth LIKE '%Jan%' ORDER BY min_temp_Celsius;
+
+/*Shows  minimum temperature in Feburary 2011*/
+SELECT min_temp_Celsius, daymonth, year FROM PakistanClimate
+WHERE year = '2011' and daymonth LIKE '%Feb%' ORDER BY min_temp_Celsius;
+
+/*Shows minimum temperature in March 2011*/
+SELECT min_temp_Celsius, daymonth, year FROM PakistanClimate
+WHERE year = '2011' and daymonth LIKE '%Mar%' ORDER BY min_temp_Celsius;
+
+/*Shows minimum temperature in April 2011*/
+SELECT min_temp_Celsius, daymonth, year FROM PakistanClimate
+WHERE year = '2011' and daymonth LIKE '%Apr%' ORDER BY min_temp_Celsius;
+
+/*Shows minimum temperature in May 2011*/
+SELECT min_temp_Celsius, daymonth, year FROM PakistanClimate
+WHERE year = '2011' and daymonth LIKE '%May%' ORDER BY min_temp_Celsius;
+
+/*Shows minimum temperature in June 2011*/
+SELECT min_temp_Celsius, daymonth, year FROM PakistanClimate
+WHERE year = '2011' and daymonth LIKE '%Jun%' ORDER BY min_temp_Celsius;
+
+/*Shows minimum temperature in July 2011*/
+SELECT min_temp_Celsius, daymonth, year FROM PakistanClimate
+WHERE year = '2011' and daymonth LIKE '%Jul%' ORDER BY min_temp_Celsius;
+
+/*Shows minimum temperature in August 2011*/
+SELECT min_temp_Celsius, daymonth, year FROM PakistanClimate
+WHERE year = '2011' and daymonth LIKE '%Aug%' ORDER BY min_temp_Celsius;
+
+/*Shows minimum temperature in September 2011*/
+SELECT min_temp_Celsius, daymonth, year FROM PakistanClimate
+WHERE year = '2011' and daymonth LIKE '%Sep%' ORDER BY min_temp_Celsius;
+
+/*Shows minimum temperature in October 2011*/
+SELECT min_temp_Celsius, daymonth, year FROM PakistanClimate
+WHERE year = '2011' and daymonth LIKE '%Oct%' ORDER BY min_temp_Celsius;
+
+/*Shows minimum temperature in November 2011*/
+SELECT min_temp_Celsius, daymonth, year FROM PakistanClimate
+WHERE year = '2011' and daymonth LIKE '%Nov%' ORDER BY min_temp_Celsius;
+
+/*Shows minimum temperature in December 2011*/
+SELECT min_temp_Celsius, daymonth, year FROM PakistanClimate
+WHERE year = '2011' and daymonth LIKE '%Dec%' ORDER BY min_temp_Celsius;
+
+
+
