@@ -1,0 +1,21 @@
+/*Getting the lowest value from the wind column*/
+SELECT MIN(wind_kmh) FROM PakistanClimate;
+
+/*Shows the month, day, and year with the lowest wind value*/
+SELECT wind_kmh, daymonth, year FROM PakistanClimate
+WHERE wind_kmh = '3';
+
+/*Getting the highest value from the wind column*/
+SELECT MAX(wind_kmh) FROM PakistanClimate;
+
+/*Shows the month, day,and yera with the highest wind value*/
+SELECT wind_kmh, daymonth, year FROM PakistanClimate
+WHERE wind_kmh = '28';
+
+/*Ordering the minimum wind values from lowest to highest*/
+SELECT wind_kmh, daymonth, year FROM PakistanClimate
+ORDER BY wind_kmh ASC;
+
+/*Ordering the minimum wind values from highest to lowest*/
+SELECT wind_kmh, daymonth, year FROM PakistanClimate
+ORDER BY wind_kmh DESC;
