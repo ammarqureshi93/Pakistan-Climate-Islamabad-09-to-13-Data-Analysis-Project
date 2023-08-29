@@ -1,0 +1,22 @@
+/*Getting the lowest value from the average temperature column*/
+SELECT MIN(avg_temp_Celsius) FROM PakistanClimate;
+
+/*Shows the month, day, and year with the lowest average temperature value*/
+SELECT avg_temp_Celsius, daymonth, year FROM PakistanClimate
+WHERE avg_temp_Celsius = '8.0';
+
+/*Getting the highest value from the average temperature column*/
+SELECT MAX(avg_temp_Celsius) FROM PakistanClimate;
+
+/*Shows the month, day,and yera with the highest average temperature value*/
+SELECT avg_temp_Celsius, daymonth, year FROM PakistanClimate
+WHERE avg_temp_Celsius = '21.0';
+
+/*Ordering the minimum average temperature values from lowest to highest*/
+SELECT avg_temp_Celsius, daymonth, year FROM PakistanClimate
+ORDER BY avg_temp_Celsius ASC;
+
+/*Ordering the minimum average temperature values from highest to lowest*/
+SELECT avg_temp_Celsius, daymonth, year FROM PakistanClimate
+ORDER BY avg_temp_Celsius DESC;
+
