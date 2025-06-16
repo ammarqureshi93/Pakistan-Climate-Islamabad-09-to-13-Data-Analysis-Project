@@ -18,7 +18,7 @@ The visualizations were segregated and filtered by month as well as year.
 
 ![Bar chart of weather and average temperatures](https://github.com/ammarqureshi93/Pakistan-Climate-Islamabad-09-to-13-Data-Analysis-Project/assets/39069129/e3963a73-6a1d-4328-8f47-fdc0e16dcbbf)
 
-# Line cHart of Wind values
+# Line Chart of Wind values
 
 
 ![Wind line chart](https://github.com/ammarqureshi93/Pakistan-Climate-Islamabad-09-to-13-Data-Analysis-Project/assets/39069129/0b3504a7-4963-44c1-af52-9d00386a3aef)
